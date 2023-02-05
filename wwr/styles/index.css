@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Rock+Salt&display=swap');
+
+h1, h2, h3, h4{
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+    margin: 0;
+
+}
+h4{
+    margin-bottom: 20px;
+}
+.home-title{
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+.msg p{
+    font-size: .75em;
+    line-height: 1.5em;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -13,10 +32,19 @@ main, .button-box{
     background-color: #941100;
     color: white;
     text-decoration: none;
-
+}
+.book, .join{
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius:  5px;
 }
 body {
     background-color: #587b7f; 
+    font-family: "Noto Sans" ,Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color:#e3ab3b;
@@ -50,8 +78,24 @@ footer p a:hover{
 }
 .icon, .logo{
     width: 80px;
+    padding: 10px;;
 }
 #hero-img{
     width: 100%;
 }
-      
+nav a {
+    padding: 35px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+footer{
+    margin-top: 100px;
+    padding: 10px;
+}
+.card-img{
+    border: 10px solid #e3ab3b;
+}
+main section img {
+    box-sizing: border-box;
+}
