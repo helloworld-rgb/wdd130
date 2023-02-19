@@ -48,6 +48,9 @@ body {
 }
 header {
     background-color:#e3ab3b;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
 }
 .book:hover, .join:hover{
     background-color: black;
